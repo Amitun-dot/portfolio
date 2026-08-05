@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FiMail, FiArrowUp } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si';
 import { PERSONAL, SOCIALS } from '@/lib/data';
+import Image from "next/image";
 
 const socials = [
   { icon: FaGithub, href: SOCIALS.github, label: 'GitHub' },
@@ -32,9 +33,16 @@ export function Footer() {
               }}
               className="flex items-center justify-center gap-2 text-lg font-bold md:justify-start"
             >
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-500 text-sm text-white">
-                A
-              </span>
+              <span className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-lg shadow-lg shadow-brand-500/30 transition-transform group-hover:scale-110">
+                            <Image
+                              src="/logo.png"
+                              alt="Amit Logo"
+                              width={44}
+                              height={44}
+                              className="h-full w-full object-contain"
+                              priority
+                            />
+                          </span>
               {PERSONAL.firstName}
               <span className="text-brand-500">.</span>
             </a>

@@ -11,12 +11,7 @@ import {
   FaDatabase,
 } from "react-icons/fa";
 
-import {
-  SiLeetcode,
-  SiSpringboot,
-  SiMysql,
-  SiRedis,
-} from "react-icons/si";
+import { SiLeetcode, SiSpringboot, SiMysql, SiRedis } from "react-icons/si";
 import { FiDownload, FiArrowDown } from "react-icons/fi";
 import { HeroParticles } from "@/components/hero-particles";
 import { TypingText } from "@/components/typing-text";
@@ -179,7 +174,7 @@ export function Hero() {
             <div
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
-              className="relative aspect-square w-64 transition-transform duration-300 ease-out sm:w-80 lg:w-[420px]"
+              className="relative aspect-square w-72 sm:w-80 lg:w-[420px] transition-transform duration-300 ease-out"
               style={{ willChange: "transform" }}
             >
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-brand-500 to-brand-600 p-[3px] glow-orange-strong">
@@ -201,7 +196,14 @@ export function Hero() {
                   repeat: Infinity,
                   ease: "easeInOut",
                 }}
-                className="absolute -right-2 top-8 flex items-center gap-2 rounded-2xl border border-border/60 bg-card/80 px-4 py-3 backdrop-blur-xl shadow-xl"
+                className="absolute right-0 top-6 sm:-right-2 sm:top-8
+flex items-center gap-2
+rounded-xl sm:rounded-2xl
+border border-border/60 bg-card/80
+px-2 py-2 sm:px-4 sm:py-3
+scale-75 sm:scale-100
+origin-top-right
+backdrop-blur-xl shadow-xl"
               >
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-500/15 text-brand-500">
                   <FaJava className="h-4 w-4" />
@@ -220,7 +222,14 @@ export function Hero() {
                   ease: "easeInOut",
                   delay: 1,
                 }}
-                className="absolute -left-2 bottom-12 flex items-center gap-2 rounded-2xl border border-border/60 bg-card/80 px-4 py-3 backdrop-blur-xl shadow-xl"
+                className="absolute left-0 bottom-8 sm:-left-2 sm:bottom-12
+flex items-center gap-2
+rounded-xl sm:rounded-2xl
+border border-border/60 bg-card/80
+px-2 py-2 sm:px-4 sm:py-3
+scale-75 sm:scale-100
+origin-bottom-left
+backdrop-blur-xl shadow-xl"
               >
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-sky-500/15 text-sky-400">
                   <FaReact className="h-4 w-4" />
@@ -234,7 +243,14 @@ export function Hero() {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 5.5, repeat: Infinity }}
-                className="absolute left-0 top-28 flex items-center gap-2 rounded-2xl border border-border/60 bg-card/80 px-4 py-3 backdrop-blur-xl shadow-xl"
+                className="absolute left-1 top-20 sm:left-0 sm:top-28
+flex items-center gap-2
+rounded-xl sm:rounded-2xl
+border border-border/60 bg-card/80
+px-2 py-2 sm:px-4 sm:py-3
+scale-75 sm:scale-100
+origin-left
+backdrop-blur-xl shadow-xl"
               >
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-green-500/15 text-green-500">
                   <SiSpringboot className="h-4 w-4" />
@@ -249,7 +265,14 @@ export function Hero() {
               <motion.div
                 animate={{ y: [0, 8, 0] }}
                 transition={{ duration: 6, repeat: Infinity }}
-                className="absolute -right-6 bottom-32 flex items-center gap-2 rounded-2xl border border-border/60 bg-card/80 px-4 py-3 backdrop-blur-xl shadow-xl"
+                className="absolute right-0 bottom-24 sm:-right-6 sm:bottom-32
+flex items-center gap-2
+rounded-xl sm:rounded-2xl
+border border-border/60 bg-card/80
+px-2 py-2 sm:px-4 sm:py-3
+scale-75 sm:scale-100
+origin-right
+backdrop-blur-xl shadow-xl"
               >
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500/15 text-blue-500">
                   <SiMysql className="h-4 w-4" />
@@ -261,11 +284,17 @@ export function Hero() {
                 </div>
               </motion.div>
 
-
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4.8, repeat: Infinity }}
-                className="absolute left-16 top-6 flex items-center gap-2 rounded-2xl border border-border/60 bg-card/80 px-4 py-3 backdrop-blur-xl shadow-xl"
+                className="absolute left-10 top-2 sm:left-16 sm:top-6
+flex items-center gap-2
+rounded-xl sm:rounded-2xl
+border border-border/60 bg-card/80
+px-2 py-2 sm:px-4 sm:py-3
+scale-75 sm:scale-100
+origin-top-left
+backdrop-blur-xl shadow-xl"
               >
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-500/15 text-red-500">
                   <SiRedis className="h-4 w-4" />
