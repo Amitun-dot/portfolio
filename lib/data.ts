@@ -194,7 +194,7 @@ export const PROJECTS = [
     featured: true,
     live: '#',
     github: '#',
-    image: '/projects/chat.jpg',
+    image: '/projects/chat.png',
     accent: 'from-amber-500/20 to-yellow-500/20',
   },
   {
