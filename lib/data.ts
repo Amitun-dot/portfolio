@@ -3,7 +3,7 @@ import type { LucideIcon } from 'lucide-react';
 export const PERSONAL = {
   name: 'Amit Kumar Adhikari',
   firstName: 'Amit',
-  lastName: 'Kumar Adhikari',
+  lastName: 'Adhikari',
   role: 'Full Stack Java Developer',
   tagline:
       'I build scalable backend systems, beautiful user interfaces and modern full-stack applications.',
