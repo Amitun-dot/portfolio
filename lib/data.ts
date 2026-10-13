@@ -155,7 +155,7 @@ export const EXPERIENCE = [
       'Built data access layers using Spring Data JPA and Hibernate, with validation and exception handling.',
       'Collaborated using Git and GitHub, and leveraged Postman for API testing, debugging, and backend integration.',
     ],
-    tech: ['HTML', 'CSS', 'React.js', 'Node.js''Java', 'Spring Boot', 'JWT', 'MySQL', 'PostgreSQL', 'Redis', 'Docker', 'Git'],
+    tech: ['HTML', 'CSS', 'React.js', 'Node.js', 'Java', 'Spring Boot', 'JWT', 'MySQL', 'PostgreSQL', 'Redis', 'Docker', 'Git'],
   },
   {
     role: 'Software Engineering Job Simulation',
