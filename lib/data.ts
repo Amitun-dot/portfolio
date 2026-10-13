@@ -143,20 +143,19 @@ export const SKILL_ICONS: Record<string, string> = {
 
 export const EXPERIENCE = [
   {
-    role: 'Software Developer Intern',
-    company: 'Interland Technology',
-    location: 'Kerala, India',
-    period: 'June 2025 – Sept 2025',
-    type: 'On-site Internship',
+    role: 'Full Stack Development Intern',
+    company: 'Cognifyz IT Solutions Pvt. Ltd.',
+    location: 'Nagpur, India',
+    period: 'Aug 2026 – Sept 2026',
+    type: 'Remote',
     points: [
-      'Developed RESTful APIs using Java and Spring Boot for production microservices.',
-      'Designed MySQL and PostgreSQL database schemas for multi-tenant applications.',
-      'Optimized complex SQL queries, reducing response times by up to 40%.',
-      'Implemented data access layers with Spring Data JPA and Hibernate.',
-      'Built secure authentication flows with Spring Security and JWT tokens.',
-      'Contributed within an Agile team of 6 developers using Git and GitHub.',
+      'Developed full-stack applications using Java, Spring Boot, React.js, and Next.js with RESTful API integration.',
+      'Built data access layers using Spring Data JPA and Hibernate, with validation and exception handling.',
+      'Developed full-stack applications using Java, Spring Boot, React.js, and Next.js with RESTful API integration.',
+      'Built data access layers using Spring Data JPA and Hibernate, with validation and exception handling.',
+      'Collaborated using Git and GitHub, and leveraged Postman for API testing, debugging, and backend integration.',
     ],
-    tech: ['Java', 'Spring Boot', 'Spring Security', 'JWT', 'MySQL', 'PostgreSQL', 'Git'],
+    tech: ['HTML', 'CSS', 'React.js', 'Node.js''Java', 'Spring Boot', 'JWT', 'MySQL', 'PostgreSQL', 'Redis', 'Docker', 'Git'],
   },
   {
     role: 'Software Engineering Job Simulation',
